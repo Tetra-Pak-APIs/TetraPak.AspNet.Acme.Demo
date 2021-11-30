@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo.Acme.Common", "demo.Acme.Common\demo.Acme.Common.csproj", "{F5517EBE-AB45-4D5E-939F-DAD4500DFEB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo.Api.AcmeAssets", "demo.Api.AcmeAssets\demo.Api.AcmeAssets.csproj", "{D39C7B7F-6709-4B30-A33F-A6CA5A29942C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo.Api.AcmeProducts", "demo.Api.AcmeProducts\demo.Api.AcmeProducts.csproj", "{96D70626-0DC3-4817-921B-BC633B233E26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5517EBE-AB45-4D5E-939F-DAD4500DFEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5517EBE-AB45-4D5E-939F-DAD4500DFEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5517EBE-AB45-4D5E-939F-DAD4500DFEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5517EBE-AB45-4D5E-939F-DAD4500DFEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39C7B7F-6709-4B30-A33F-A6CA5A29942C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39C7B7F-6709-4B30-A33F-A6CA5A29942C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39C7B7F-6709-4B30-A33F-A6CA5A29942C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39C7B7F-6709-4B30-A33F-A6CA5A29942C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D70626-0DC3-4817-921B-BC633B233E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D70626-0DC3-4817-921B-BC633B233E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D70626-0DC3-4817-921B-BC633B233E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D70626-0DC3-4817-921B-BC633B233E26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
