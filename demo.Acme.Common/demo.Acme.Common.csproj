@@ -9,7 +9,7 @@
 
     <ItemGroup>
       <PackageReference Include="Microsoft.AspNetCore.Routing.Abstractions" Version="2.2.0" />
-      <PackageReference Include="TetraPak.AspNet.Api" Version="1.1.0-beta.2" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
     </ItemGroup>
 
 </Project>
