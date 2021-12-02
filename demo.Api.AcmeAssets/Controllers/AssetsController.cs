@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using demo.Acme.Models;
 using demo.AcmeAssets.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TetraPak;
@@ -12,7 +13,7 @@ namespace demo.AcmeAssets.Controllers
 {
     [ApiController]
     [Route("Media/[controller]")]
-    //[Authorize]
+    [Authorize]
     public class AssetsController : ControllerBase
     {
         readonly AssetsRepository _repository;
